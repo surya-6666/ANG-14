@@ -1,0 +1,32 @@
+<h2>Company-Listing</h2>
+<div class="mat-elevation-z8">
+    <table mat-table [dataSource]="companydata" class="mat-elevation-z8">
+        <ng-container matColumnDef="id" >
+            <th mat-header-cell *matHeaderCellDef>ID</th>
+            <td *matCellDef="let element">{{element.id}}</td>
+            <ng-container matColumnDef="name" >
+                <th mat-header-cell *matHeaderCellDef>Name</th>
+                <td *matCellDef="let element">{{element.name}}</td>
+                <ng-container matColumnDef="empcount" >
+                    <th mat-header-cell *matHeaderCellDef>EmpCount</th>
+                    <td *matCellDef="let element">{{element.empcount}}</td>
+                    <ng-container matColumnDef="revenue" >
+                        <th mat-header-cell *matHeaderCellDef>Revenue</th>
+                        <td *matCellDef="let element">{{element.revenue}}</td>
+                        <ng-container matColumnDef="address" >
+                            <th mat-header-cell *matHeaderCellDef>Address</th>
+                            <td *matCellDef="let element">{{element.address}}</td>
+                            <ng-container matColumnDef="isActive" >
+                                <th mat-header-cell *matHeaderCellDef>isActive</th>
+                                <td *matCellDef="let element">{{element.isActive}}</td>
+                                <ng-container matColumnDef="action" >
+                                    <th mat-header-cell *matHeaderCellDef>Action</th>
+                                    <td *matCellDef="let element">
+                                        <a mat-raised-button color="primary">Edit</a>
+                                        <a mat-raised-button color="warn">Delete</a>
+                                    </td>
+
+        </ng-container>
+    </table>
+
+</div>

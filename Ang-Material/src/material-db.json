@@ -1,0 +1,63 @@
+{
+    "bookings":[{
+        "id": 1,
+        "customerName": "Daisy Howison",
+        "last_name": "Howison",
+        "location": "Linquan",
+        "date": "02/08/2022"
+      }, {
+        "id": 2,
+        "customerName": "Laurie Bow",
+        "last_name": "Bow",
+        "location": "Xiehu",
+        "date": "04/06/2022"
+      }, {
+        "id": 3,
+        "customerName": "Danyette Frankcomb",
+        "last_name": "Frankcomb",
+        "location": "Zhonggang",
+        "date": "29/01/2022"
+      }, {
+        "id": 4,
+        "customerName": "Tessi Repp",
+        "last_name": "Repp",
+        "location": "Trąbki",
+        "date": "01/11/2021"
+      }, {
+        "id": 5,
+        "customerName": "Xever Kinman",
+        "last_name": "Kinman",
+        "location": "Pont-Rouge",
+        "date": "24/03/2022"
+      }, {
+        "id": 6,
+        "customerName": "Shaine Roebottom",
+        "last_name": "Roebottom",
+        "location": "Qiulu",
+        "date": "06/04/2022"
+      }, {
+        "id": 7,
+        "customerName": "Reggis Yushachkov",
+        "last_name": "Yushachkov",
+        "location": "Daohe",
+        "date": "06/05/2022"
+      }, {
+        "id": 8,
+        "customerName": "Olly Dayer",
+        "last_name": "Dayer",
+        "location": "Boston",
+        "date": "17/01/2022"
+      }, {
+        "id": 9,
+        "customerName": "Alisun Mechic",
+        "last_name": "Mechic",
+        "location": "Pamarayan",
+        "date": "18/12/2021"
+      }, {
+        "id": 10,
+        "customerName": "Leda Simeone",
+        "last_name": "Simeone",
+        "location": "A’ershan",
+        "date": "25/01/2022"
+      }]
+}
